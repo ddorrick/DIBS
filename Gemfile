@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
+gem 'jquery-rails'
 gem 'sqlite3'
 
 group :production do
@@ -18,4 +19,3 @@ group :assets do
   gem 'bootstrap-sass', '~> 2.3.1.2'
 end
 
-gem 'jquery-rails'
