@@ -1,5 +1,21 @@
+$serifFontFamily: georgia;
+@import url(http://fonts.googleapis.com/css?family=georgia);
+
+$btnPrimaryBackground: red;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
 @import 'bootstrap';
 body {
      padding-top: 60px;
 }
 @import 'bootstrap-responsive';
+
+
+.footer {
+ margin-top: 200px;
+ color: $grayLight;
+ a {
+  color: $gray;
+ }
+}
