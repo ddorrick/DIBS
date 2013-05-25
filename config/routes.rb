@@ -1,4 +1,20 @@
 DIBS2::Application.routes.draw do
+  get "pages/Home"
+
+  get 'about' => 'pages#about'
+
+def action
+#content goes here
+end
+
+  get 'getinvolved' => 'pages#getinvolved'
+
+def action
+#content goes here
+end  
+
+  root :to => 'pages#Home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
