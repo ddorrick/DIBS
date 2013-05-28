@@ -1,4 +1,6 @@
 DIBS2::Application.routes.draw do
+  devise_for :users
+
   get "pages/Home"
 
   get 'about' => 'pages#about'
